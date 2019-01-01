@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.shape.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="root" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="mainUIxml">
+	<children>
+		<Pane fx:id="background" prefHeight="700.0" prefWidth="700.0">
+			<children>
+				<Pane fx:id="area" layoutX="14.0" layoutY="64.0" prefHeight="480.0" prefWidth="480.0" style="-fx-background-color: brown;" />
+				<Button fx:id="start" layoutX="544.0" layoutY="206.0" mnemonicParsing="false" onAction="#start" text="Start" />
+				<Text fx:id="point" layoutX="45.0" layoutY="57.0" strokeType="OUTSIDE" strokeWidth="0.0" text=" POINT: " />
+				<Button fx:id="setting" layoutX="537.0" layoutY="263.0" mnemonicParsing="false" onAction="#changeSetting" text="Setting" />
+			</children>
+		</Pane>
+	</children>
+</AnchorPane>
